@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backend-quality-dashboard-dv6c
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-eole-tenant/mc-quality-dashboard/backend-quality-dashboard-dv6c@sha256:dfd4a517a6fac2375d46634b72894b0ed322f4fe3ff58fa1025d1dfdf6322ac5
+        name: container-image
+        resources: {}
+status: {}
